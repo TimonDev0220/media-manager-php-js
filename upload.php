@@ -105,6 +105,7 @@ include 'config.php';
 		    $extension = end($image_array);
 		    $image_data = file_get_contents($_POST["image_url"]);
 		    if($image_data == null) {
+		    	
 		    	return;
 		    }
 		    $uploadedname = rand(). "." .$extension; 
