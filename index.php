@@ -48,15 +48,10 @@ $result1 = mysqli_query($conn , $sql1);
     <link rel="stylesheet" type="text/css" href="./assets/jquery-ui-1.8.7.custom.css" /> 
     <link rel="stylesheet" type="text/css" href="./assets/custom.css" />
 
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-6883622550208397",
-        enable_page_level_ads: true
-      });
-    </script>
-      <script src="https://tutsplus.s3.amazonaws.com/tutspremium/web-development/133_canvasEditor/demo/jquery-1.4.4.min.js"></script>
+
+    <script src="https://tutsplus.s3.amazonaws.com/tutspremium/web-development/133_canvasEditor/demo/jquery-1.4.4.min.js"></script>
       <script src="https://tutsplus.s3.amazonaws.com/tutspremium/web-development/133_canvasEditor/demo/jquery-ui-1.8.7.custom.min.js"></script>
+
     <style>
       .PHPGangMessage a,
       .subbase a {
@@ -180,9 +175,6 @@ $result1 = mysqli_query($conn , $sql1);
               </div>
             </div>
 
-
-
-
             <div class="searchinputDiv">
               <div class="searchFloatDiv">
                 <label class="searchLabel">Search </label>
@@ -258,7 +250,7 @@ $result1 = mysqli_query($conn , $sql1);
               </div>
             </div>
             <div class="linkSidebar">
-              <a class="sidebarLink">View attachment page</a> | <a class="sidebarLink" id="editImage">Edit more details</a> | <a class="sidebarLink redLink" id="deleteImg">Delete permanently</a>
+              <a class="sidebarLink" id="editImage">Edit more details</a> | <a class="sidebarLink redLink" id="deleteImg">Delete permanently</a>
             </div>
           </div>
           <div id="myModal" class="modal">
@@ -697,7 +689,7 @@ $result1 = mysqli_query($conn , $sql1);
                  })
                 }
               }
-            },2000);  
+            },3000);  
         })
 
         var zipRealDiv = [];
@@ -1031,6 +1023,7 @@ $result1 = mysqli_query($conn , $sql1);
           });
         })
       });
+    
 
     </script>
   </body>
